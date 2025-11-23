@@ -1,0 +1,10 @@
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayDev\BarangayDev\bin\Debug\BarangayDev.exe.config
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayDev\BarangayDev\bin\Debug\BarangayDev.exe
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayDev\BarangayDev\bin\Debug\BarangayDev.pdb
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayDev\BarangayDev\obj\Debug\BarangayDev.csproj.AssemblyReference.cache
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayDev\BarangayDev\obj\Debug\BarangayanSystem.HomeForm.resources
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayDev\BarangayDev\obj\Debug\BarangayDev.Properties.Resources.resources
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayDev\BarangayDev\obj\Debug\BarangayDev.csproj.GenerateResource.cache
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayDev\BarangayDev\obj\Debug\BarangayDev.csproj.CoreCompileInputs.cache
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayDev\BarangayDev\obj\Debug\BarangayDev.exe
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayDev\BarangayDev\obj\Debug\BarangayDev.pdb
