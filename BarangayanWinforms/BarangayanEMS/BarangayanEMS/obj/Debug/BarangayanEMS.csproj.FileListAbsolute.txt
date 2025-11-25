@@ -1,0 +1,9 @@
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayanEMS\BarangayanEMS\bin\Debug\BarangayanEMS.exe.config
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayanEMS\BarangayanEMS\bin\Debug\BarangayanEMS.exe
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayanEMS\BarangayanEMS\bin\Debug\BarangayanEMS.pdb
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayanEMS\BarangayanEMS\obj\Debug\BarangayanEMS.csproj.AssemblyReference.cache
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayanEMS\BarangayanEMS\obj\Debug\BarangayanEMS.Properties.Resources.resources
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayanEMS\BarangayanEMS\obj\Debug\BarangayanEMS.csproj.GenerateResource.cache
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayanEMS\BarangayanEMS\obj\Debug\BarangayanEMS.csproj.CoreCompileInputs.cache
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayanEMS\BarangayanEMS\obj\Debug\BarangayanEMS.exe
+C:\Users\ralph\Documents\Desktop\BarangayanWinforms\BarangayanEMS\BarangayanEMS\obj\Debug\BarangayanEMS.pdb
