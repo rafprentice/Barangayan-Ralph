@@ -1,2 +1,0 @@
-# Barangayan-Ralph
-Barangayan modified
