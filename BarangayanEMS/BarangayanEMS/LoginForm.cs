@@ -330,37 +330,46 @@ namespace BarangayanEMS
 
         private void BtnSignIn_Click(object sender, EventArgs e)
         {
-            string email = GetActualText(txtEmail, PlaceholderEmail);
-            string password = GetActualText(txtPassword, PlaceholderPassword);
+            string email = txtEmail.Text.Trim();
+            string pass = txtPassword.Text.Trim();
 
-            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+            // Validate email
+            if (string.IsNullOrWhiteSpace(email) || email == "Enter your email or resident ID")
             {
-                MessageBox.Show(
-                    "Please enter both your email / resident ID and password.",
-                    "Missing Information",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
+                MessageBox.Show("Please enter your email or resident ID.", "Missing Information",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtEmail.Focus();
                 return;
             }
 
-            if (email.Equals("demo@barangayan.gov", StringComparison.OrdinalIgnoreCase) &&
-                password == "demo123")
+            // Validate password
+            if (string.IsNullOrWhiteSpace(pass) || pass == "Enter your password")
             {
-                MessageBox.Show(
-                    "Signed in successfully as demo user.\n(In a real app this opens the dashboard.)",
-                    "Demo Login",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+                MessageBox.Show("Please enter your password.", "Missing Information",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtPassword.Focus();
+                return;
+            }
+
+            // ---- DEMO ACCOUNT LOGIN ----
+            if (email.Equals("demo@barangayan.gov", StringComparison.OrdinalIgnoreCase) && pass == "demo123")
+            {
+                // Optional success message
+                // MessageBox.Show("Login Successful!", "Welcome",
+                //     MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // OPEN DASHBOARD
+                DashboardForm dashboard = new DashboardForm();
+                dashboard.Show();      // show dashboard
+                this.Hide();           // hide login form
             }
             else
             {
-                MessageBox.Show(
-                    "This is a prototype login screen.\nHook this up to your real authentication logic.",
-                    "Sign In Clicked",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+                MessageBox.Show("Invalid credentials.", "Authentication Failed",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         private static string GetActualText(TextBox txt, string placeholder)
         {
@@ -427,5 +436,11 @@ namespace BarangayanEMS
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
             }
         }
-    }
+
+        private void lblOrContinue_Click(object sender, EventArgs e)
+        {
+
+        }
+       
+}
 }
